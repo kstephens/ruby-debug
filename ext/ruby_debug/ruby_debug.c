@@ -21,7 +21,7 @@
 #define STACK_SIZE_INCREMENT 128
 
 RUBY_EXTERN int rb_vm_get_sourceline(const rb_control_frame_t *cfp); /* from vm.c */
-RUBY_EXTERN VALUE rb_iseq_compile_with_option(VALUE src, VALUE file, VALUE line, VALUE opt); /* from iseq.c */
+// RUBY_EXTERN VALUE rb_iseq_compile_with_option(VALUE src, VALUE file, VALUE line, VALUE opt); /* from iseq.c */
 
 typedef struct {
     st_table *tbl;
